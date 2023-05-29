@@ -123,3 +123,8 @@ a {
 #current-button {
   background-color: rgb(233, 167, 34);
 }
+
+.creator-info {
+  text-align: center;
+  margin: 2%;
+}
