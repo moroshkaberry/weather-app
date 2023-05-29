@@ -1,0 +1,125 @@
+h1 {
+  padding-left: 1%;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 24px;
+  padding-left: 1%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+}
+.searched-cities {
+  padding-left: 1%;
+  padding-bottom: 2%;
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+}
+
+.searched-cities .new-york {
+  word-spacing: normal;
+}
+
+.input-group {
+  padding-top: 10px;
+  padding-right: 2%;
+  padding-left: 1%;
+}
+
+.sky-date {
+  display: inline-block;
+  margin: 10px;
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 5%;
+}
+.precipitation-wind {
+  display: inline-block;
+  margin: 10px;
+  padding-right: 2%;
+  padding-left: 1%;
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 5%;
+}
+
+ul {
+  list-style: none;
+  margin-top: calc(1.5 * 1.25em); /* adjust as needed */
+  margin-right: 10px;
+  padding-right: 2%;
+  padding-left: 1%;
+  float: center;
+}
+
+body {
+  font-family: "Nexa", sans-serif;
+}
+
+.btn.btn-primary {
+  background-color: #58a0ee;
+  color: white;
+  border-color: #58a0ee;
+  margin-right: 0.5%;
+}
+:hover.btn.btn-primary {
+  background-color: #9ec2e9;
+}
+
+.weather-week {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+  display: block;
+  clear: both;
+}
+
+.daysofweek {
+  display: inline-block;
+  width: calc(100% / 6 - 4px);
+  vertical-align: top;
+  text-align: center;
+}
+
+.daysofweek .daysofweek-temperatures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.daysofweek img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-left: 1%;
+}
+
+.daysofweek strong {
+  display: block;
+  font-size: 1.5em;
+  padding-left: 1%;
+}
+
+.container {
+  border: 1px solid #dadde1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading-container {
+  display: inline;
+}
+
+.heading-container h1 {
+  display: inline;
+}
+
+#current-button {
+  background-color: rgb(233, 167, 34);
+}
