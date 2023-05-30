@@ -72,4 +72,11 @@ searchForm.addEventListener("click", handleSubmit);
 let currentForm = document.querySelector("#current-button");
 currentForm.addEventListener("click", getCurrentLocation);
 
+function clearPlaceholder(event) {
+  let searchBar = document.querySelector("#search-bar");
+  searchBar.placeholder = "";
+}
+
+let searchInput = document.querySelector("#search-bar");
+searchInput.addEventListener("click", clearPlaceholder);
 searchCity("New York");
