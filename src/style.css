@@ -62,7 +62,8 @@ body {
   border-color: #58a0ee;
   margin-right: 0.5%;
 }
-:hover.btn.btn-primary {
+
+.btn.btn-primary:hover {
   background-color: #9ec2e9;
 }
 
@@ -123,18 +124,20 @@ a {
 .heading-container h1 {
   display: inline;
 }
-
-#current-button {
-  background-color: rgb(233, 167, 34);
-  border-width: 0;
-}
-
 .creator-info {
   text-align: center;
   margin: 2%;
 }
-:hover #current-button {
+#current-button {
+  background-color: rgb(233, 167, 34);
+  border-width: 1px;
+  border-color: transparent;
+  outline: none;
+}
+
+#current-button:hover {
   background-color: rgb(235, 205, 147);
   border-color: rgb(233, 167, 34);
   border-width: 1px;
+  transform: scale(1);
 }
