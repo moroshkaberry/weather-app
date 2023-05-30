@@ -105,6 +105,10 @@ body {
 
 .container {
   border: 1px solid #dadde1;
+  border-radius: 5px;
+  max-width: 800px;
+  padding: 20px;
+  margin: 30px auto;
 }
 
 a {
@@ -122,9 +126,15 @@ a {
 
 #current-button {
   background-color: rgb(233, 167, 34);
+  border-width: 0;
 }
 
 .creator-info {
   text-align: center;
   margin: 2%;
+}
+:hover #current-button {
+  background-color: rgb(235, 205, 147);
+  border-color: rgb(233, 167, 34);
+  border-width: 1px;
 }
