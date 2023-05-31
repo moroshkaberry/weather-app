@@ -54,17 +54,18 @@ ul {
 
 body {
   font-family: "Nexa", sans-serif;
+  color: #132f21;
 }
 
 .btn.btn-primary {
-  background-color: #58a0ee;
+  background-color: #2c7454;
   color: white;
-  border-color: #58a0ee;
+  border-color: #2c7454;
   margin-right: 0.5%;
 }
 
 .btn.btn-primary:hover {
-  background-color: #9ec2e9;
+  background-color: #7cc59d;
 }
 
 .weather-week {
@@ -110,6 +111,7 @@ body {
   max-width: 800px;
   padding: 20px;
   margin: 30px auto;
+  background: linear-gradient(to bottom, #98d5b4, white);
 }
 
 a {
@@ -129,15 +131,15 @@ a {
   margin: 2%;
 }
 #current-button {
-  background-color: rgb(233, 167, 34);
+  background-color: #2c7454;
   border-width: 1px;
   border-color: transparent;
   outline: none;
 }
 
 #current-button:hover {
-  background-color: rgb(235, 205, 147);
-  border-color: rgb(233, 167, 34);
+  background-color: #7cc59d;
+  border-color: #2c7454;
   border-width: 1px;
   transform: scale(1);
 }
