@@ -33,12 +33,19 @@ function showWeather(response) {
   h2.innerHTML = `${temperature}°C`;
 
   console.log(response.data);
-  document.querySelector("#current-sky").innerHTML =
-    response.data.weather[0].main;
+  let currentSky = document.querySelector("#current-sky");
+  currentSky.innerHTML = `${response.data.weather[0].main}`;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
+  searchLocation(response.data.coord);
 }
 
 function searchCity(city) {
