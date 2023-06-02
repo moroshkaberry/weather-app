@@ -5,7 +5,7 @@ h1 {
   text-transform: capitalize;
 }
 h2 {
-  font-size: 24px;
+  font-size: 36px;
   padding-left: 1%;
   padding-right: 2%;
   padding-bottom: 5%;
@@ -117,7 +117,8 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #132f21;
+  cursor: default;
 }
 
 .heading-container {
@@ -146,4 +147,9 @@ a {
 }
 .input-group.mb-3 input[type="text"] {
   border-color: white;
+}
+
+.units {
+  color: #132f21;
+  font-size: 24px;
 }
