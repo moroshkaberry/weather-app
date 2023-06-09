@@ -111,10 +111,11 @@ body {
 .container {
   border: 1px solid #dadde1;
   border-radius: 5px;
-  max-width: 800px;
+  max-width: 900px;
   padding: 20px;
+  padding-bottom: 40px;
   margin: 30px auto;
-  background: linear-gradient(to bottom, #98d5b4, rgb(243, 203, 138));
+  background: linear-gradient(to bottom, #8fd791, rgb(243, 194, 138));
 }
 
 a {
@@ -147,7 +148,7 @@ a {
   border-width: 1px;
   transform: scale(1);
 }
-.input-group.mb-3 input[type="text"] {
+.input-group .form-control {
   border-color: white;
 }
 
